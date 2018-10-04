@@ -36,6 +36,7 @@
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
+	<img src="/assets/images/language/{{ page.locale }}_small.png">
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
@@ -45,8 +46,20 @@
       {% if page.header.show_overlay_excerpt != false and page.excerpt %}
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
+      {% if page.last_modified_at or page.date or page.read_time %}
+        <p class="page__meta">
+      {% endif %}
+      {% if page.last_modified_at %}
+        <strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[page.locale].date_label | default: site.data.ui-text[site.locale].date_label }} </strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d %H:%M:%S" }}">{{ page.last_modified_at | date: "%Y-%m-%d %H:%M:%S" }}</time>
+      {% elsif page.date %}
+        <strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[page.locale].date_label | default: site.data.ui-text[site.locale].date_label }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d %H:%M:%S" }}</time>
+      {% endif %}
+
       {% if page.read_time %}
-        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+        | <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}
+      {% endif %}
+      {% if page.last_modified_at or page.date or page.read_time %}
+        </p>
       {% endif %}
       {% if page.header.cta_url %}
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>

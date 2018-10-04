@@ -1,4 +1,4 @@
-<div class="masthead">
+ <div class="masthead" id="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
@@ -14,6 +14,44 @@
               <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
+
+      <li>
+        {% assign pages = site.pages | where: "ref", page.ref %}
+        {% assign n_pages = pages | size %}
+        {% if n_pages > 0 %}
+          {% for page2 in pages %}
+            {% if page2.locale != page.locale %}
+              <a href="{{ page2.url }}">
+                {% if page2.locale == 'en' %}
+		  <img src="/assets/images/language/en_tiny.png">
+	          English
+                {% else %}
+		  <img src="/assets/images/language/es_tiny.png">
+	          Español
+                {% endif %}
+	      </a>
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign posts = site.posts | where: "ref", page.ref %}
+          {% for post2 in posts %}
+            {% if post2.locale != page.locale %}
+              <a href="{{ post2.url }}">
+	        {% if post2.locale == 'en' %}
+		  <img src="/assets/images/language/en_tiny.png">
+	          English
+                {% else %}
+		  <img src="/assets/images/language/es_tiny.png">
+	          Español
+                {% endif %}
+	      </a>
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </li>
+
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
