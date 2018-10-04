@@ -6,7 +6,6 @@ locale: en
 title: About
 show-avatar: true
 subtitle: "'Be careful, lest in casting out your demon you exorcise the best thing in you.' Friedrich Nietzsche"
-last_modified_at: 2018-10-02T18:19:56-06:00
 ads: false
 share: false
 author_profile: true

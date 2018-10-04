@@ -111,6 +111,7 @@ author:
   bio              : "Full Stack Developer"
   location         : "Tegucigalpa,HN"
   email            : # nelbren@nelbren.com
+  home             : /en/about
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"

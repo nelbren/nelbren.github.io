@@ -3,6 +3,13 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+	<!--
+	<img src="https://npr3s.com/analitica/index.php?module=Counter&action=show&id=1" border="0">
+	<img src="https://npr3s.com/pelican/images/nagios/status_npro-vps-01.png">
+	<img src="https://npr3s.com/pelican/images/nagios/status_ndev-vps-01.png">
+	-->
+
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             {%- if link.url contains '://' -%}

@@ -6,7 +6,6 @@ locale: es
 title: Sobre
 show-avatar: true
 subtitle: "'Ten cuidado cuando expulses tus demonios, no vayas a desechar lo mejor de ti.' Friedrich Nietzsche"
-last_modified_at: 2018-10-02T10:19:56-06:00
 ads: false
 share: false
 author_profile: true

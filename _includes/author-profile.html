@@ -18,11 +18,14 @@
           {% assign author_link = author.home | relative_url %}
         {% endif %}
         <a href="{{ author_link }}">
-          <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+          <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image" style="border-radius: 0px;">
         </a>
       {% else %}
         <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
       {% endif %}
+      <a href="https://npr3s.com/analitica/index.php?module=CoreHome&action=index&idSite=4&period=year&date=today#?idSite=4&period=year&date=today&category=Dashboard_Dashboard&subcategory=1">
+        <img src="https://npr3s.com/analitica/index.php?module=Counter&action=show&id=1" border="0" style="border-radius: 0px;height: 41px; width: 80px;">
+      </a>
     </div>
   {% endif %}
 
