@@ -16,6 +16,7 @@ excerpt: "Little library of colors for bash script"
 header:
   overlay_image: /assets/images/posts/super-tiny-colors.png
   overlay_filter: 0.5
+  teaser: /assets/images/posts/tiny_colors_teaser.png
 toc: true
 toc_sticky: true
 ---

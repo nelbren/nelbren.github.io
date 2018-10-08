@@ -13,6 +13,7 @@ excerpt: "Manejar dos lenguages en las páginas"
 header:
   overlay_image: /assets/images/posts/jekyll-multilingual.png
   overlay_filter: 0.5
+  teaser: /assets/images/posts/jekyll_multi_teaser.png
 toc: true
 toc_sticky: true
 ---
@@ -30,7 +31,7 @@ Jekyll tiene un unico procesamiento de lenguage. La idea entonces es, modificar 
 
   - <i class="fa fa-link" aria-hidden="true"></i> [Build a multilingual website with jekyll](http://chocanto.me/2016/04/16/jekyll-multilingual.html)
 
-    ![](/assets/inages/posts/external_build_a_multilingual_website_with_jekyll.png)
+    ![](/assets/images/posts/external_build_a_multilingual_website_with_jekyll.png)
 
   - <i class="fa fa-link" aria-hidden="true"></i> [How to make Jekyll multilingual](http://migueldavid.eu/en/2017/04/04/how-to-make-jekyll-multilingual/)
 

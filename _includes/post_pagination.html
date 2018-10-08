@@ -1,12 +1,12 @@
 {% if page.previous or page.next %}
   <nav class="pagination">
-    {% if page.previous %}
     {% assign previous_label = site.data.ui-text[page.locale].pagination_previous | default: site.data.ui-text[site.locale].pagination_previous %}
-    {% assign next_label = site.data.ui-text[page.locale].pagination_next | default: site.data.ui-text[site.locale].pagination_next %}
+    {% if page.previous %}
     <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ previous_label }}</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">{{ previous_label }}</a>
     {% endif %}
+    {% assign next_label = site.data.ui-text[page.locale].pagination_next | default: site.data.ui-text[site.locale].pagination_next %}
     {% if page.next %}
       <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ next_label }}</a>
     {% else %}

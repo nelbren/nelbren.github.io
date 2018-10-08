@@ -23,7 +23,8 @@
           alt="">
       </div>
     {% endif %}
-    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0px;">
+    <!-- <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0px;"> -->
+    <h2 class="archive__item-title" itemprop="headline">
       <img src="/assets/images/language/{{ post.locale }}_tiny.png">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -31,11 +32,10 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% comment %}
     {% if post.read_time %}
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% endcomment %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" style="margin-bottom: 0px;" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    <!--  style="margin-bottom: 0px;" -->
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>

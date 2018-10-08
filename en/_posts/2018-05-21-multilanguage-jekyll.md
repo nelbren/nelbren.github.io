@@ -13,6 +13,7 @@ excerpt: "Manage two languages on the pages"
 header:
   overlay_image: /assets/images/posts/jekyll-multilingual.png
   overlay_filter: 0.5
+  teaser: /assets/images/posts/jekyll_multi_teaser.png
 toc: true
 toc_sticky: true
 ---

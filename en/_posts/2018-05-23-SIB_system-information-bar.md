@@ -14,6 +14,7 @@ excerpt: "Shows the use of current resources in a GNU/Linux system"
 header:
   overlay_image: /assets/images/posts/sib_system-information-bar_big.png
   overlay_filter: 0.5
+  teaser: /assets/images/posts/sib_teaser.png
 toc: true
 toc_sticky: true
 ---
