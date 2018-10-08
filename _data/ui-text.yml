@@ -61,7 +61,7 @@ es: &DEFAULT_ES
   breadcrumb_home_label      : "Inicio"
   breadcrumb_separator       : "/"
   menu_label                 :
-  toc_label                  : "Contenidos"
+  toc_label                  : "En esta página"
   ext_link_label             : "Enlace"
   less_than                  : "menos de"
   minute_read                : "minuto de lectura"

@@ -58,12 +58,14 @@ En este articulo se mostrara como automatizar el despliege de la información qu
   - <i class="fas fa-download"></i> [Fritzing](http://fritzing.org/download/?donation=0)
     - <i class="fas fa-download"></i> [Arduino WeMos D1 R2](https://github.com/mikeipin/Fritzing-Part-WeMos-D1-R2/raw/master/src/WeMos-D1-R2.fzpz)
     - <i class="fas fa-download"></i> [LCD 16x2](http://forum.fritzing.org/uploads/default/original/2X/7/70f90addd7883759e4a0d06a934946c2be8aa6c1.fzpz)
+- <i class="fas fa-draw-polygon"></i> Simulación de Hardware
+  - <i class="fas fa-external-link-alt"></i> [Tinkercad](https://www.tinkercad.com/)
 
 ## <i class="fas fa-microchip"></i> Hardware
 
 - <i class="fas fa-check"></i> Arduino WeMos D1 R2
   ![](/assets/images/posts/wemos_d1_r2.png)
-  > ***AGOTADO*** [Alternativas](http://cdtechnologia.net/search?controller=search&orderby=position&orderway=desc&search_query=arduino+esp8266&submit_search=) en ![http://cdtechnologia.net](/assets/images/posts/cdtechnologia.png) 
+  > **AGOTADO** [Alternativas](http://cdtechnologia.net/search?controller=search&orderby=position&orderway=desc&search_query=arduino+esp8266&submit_search=) en ![http://cdtechnologia.net](/assets/images/posts/cdtechnologia.png) 
 - <i class="fas fa-check"></i> LCD 20x4
   ![](/assets/images/posts/lcd_20x4.png)
   > **$15.00** [Pantalla LCD 20x4](http://cdtechnologia.net/arduino/64-pantalla-lcd.html) en ![http://cdtechnologia.net](/assets/images/posts/cdtechnologia.png) 
@@ -73,11 +75,6 @@ En este articulo se mostrara como automatizar el despliege de la información qu
 - <i class="fas fa-check"></i> Cables Hembra - Hembra
   ![](/assets/images/posts/cables_hembra_hembra.png)
   > **$5.20** [Cables Hembra - Hembra](http://cdtechnologia.net/semiconductores/117-cables-hembra-macho.html) en ![http://cdtechnologia.net](/assets/images/posts/cdtechnologia.png) 
-
-## <i class="fas fa-memory"></i> Simulador de Hardware 
-- <i class="fas fa-draw-polygon"></i> [Tinkercad](https://www.tinkercad.com/)
-
-  <!-- <iframe width="620" height="453" src="https://www.tinkercad.com/embed/fqruqClfHMR?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>-->
 
 ## <i class="fas fa-code"></i> Código
 
