@@ -16,6 +16,7 @@ header:
   overlay_image: /assets/images/posts/Display_on_Arduino_of_System_Information_Bar.png
   overlay_filter: 0.5 
   show_overlay_excerpt: false
+  teaser: /assets/images/posts/display_arduino_sib_teaser.png
 toc: true 
 toc_sticky: true
 ---      

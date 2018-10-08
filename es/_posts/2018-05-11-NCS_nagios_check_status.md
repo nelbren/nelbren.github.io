@@ -13,6 +13,7 @@ excerpt: "Muestra el estado del servidor y los servicios monitoreados por nagios
 header:
   overlay_image: /assets/images/posts/mincs.png
   overlay_filter: 0.5
+  teaser: /assets/images/posts/ncs_teaser.png
 toc: true
 toc_sticky: true
 ---

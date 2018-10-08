@@ -10,6 +10,8 @@ tags:
 - github
 - ruby
 - python
+header:
+  teaser: /assets/images/posts/jekyll_teaser.png
 toc: true
 toc_sticky: true
 ---
