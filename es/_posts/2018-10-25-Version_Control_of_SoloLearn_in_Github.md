@@ -1,9 +1,8 @@
 ---
-title: Mini Tutorial - Código de SoloLearn a Github
+title: Control de Versiones de SoloLearn en Github
 last_modified_at: 2018-10-25T00:40:00-06:00
-ref: mini_tutorial_code_of_sololearn_to_github
+ref: version_control_of_sololearn_on_github
 locale: es
-show-avatar: true
 categories:
 - tutorial
 tags:
@@ -14,19 +13,20 @@ tags:
 - python
 - ruby
 - php
-excerpt: "Mini Tutorial : Código de SoloLearn a Github"
+excerpt: "Control de Versiones de SoloLearn en Github"
 header:
   overlay_image: /assets/images/posts/sololearn2github.png
   overlay_filter: 0.5
   show_overlay_excerpt: false
   teaser: /assets/images/posts/sololearn2github_teaser.png
-toc: true
+toc: false
 toc_sticky: true
+classes: wide
 ---
 
-# Mini Tutorial : Código de SoloLearn a Github
+# Control de Versiones de SoloLearn en Github
 
-# Tabla de contenido
+## Tabla de contenido
   * [1. Requisitos previos](#1)
   * [2. Crear repositorio en Github](#2)
   * [3. Configurar llave pública y privada](#3)
@@ -35,31 +35,31 @@ toc_sticky: true
 
 ## 1. Requisitos previos <a name="1"></a>
    - Cuentas en:
-     - GitHub
-     - SoloLearn
+     - <i class="fab fa-github"></i> [GitHub](https://github.com)
+     - <i class="fas fa-code"></i> [SoloLearn](https://sololearn.com)
 
 ## 2. Crear repositorio en Github <a name="2"></a>
    - Clickear en **New**
-     ![](images/new_repository_1.png)
+     ![](/assets/images/posts/new_repository_1.png)
    - Escribe el nombre del repositorio **my_codes_in_sololearn** y clickear en **Create repository**
-     ![](images/new_repository_2.png)
+     ![](/assets/images/posts/new_repository_2.png)
    - Seleccionar el método de conexión a GitHub **https** o **ssh**
-     ![](images/new_repository_3.png)
+     ![](/assets/images/posts/new_repository_3.png)
   
-   > **NOTA:** En el caso de un proyecto propio, aconsejo usar **ssh** con el uso de llaves pública y privada.
+   > **NOTA 1:** En el caso de un proyecto propio, aconsejo usar **ssh** con el uso de llaves pública y privada.
   
-   ### Al usar https, al obtener cambios del repositorio no se requiere contraseña. Solo es requerida cuando se envíen cambios al repositorio.
-    
+   > **NOTA 2:** En el caso de usar https, al obtener cambios del repositorio no se requiere contraseña. Solo es requerida cuando se envíen cambios al repositorio.
+
 ## 3. Configurar llave pública y privada <a name="3"></a>
-   - Crear llaves usando linea de comando (Linux o MAC)
+   - Crear llaves usando linea de comando (<i class="fab fa-linux"></i> Linux o <i class="fab fa-apple"></i> MAC)
 
    ```bash
    ssh-keygen -t dsa
    ``` 
 
-   - Crear llaves usando PuTTYgen (Windows)
+   - Crear llaves usando PuTTYgen (<i class="fab fa-windows"></i> Windows)
 
-     ![](images/puttygen.png)
+     ![](/assets/images/posts/puttygen.png)
 
    > Ver instrucciones en [PUTTYGEN - KEY GENERATOR FOR PUTTY ON WINDOWS](https://www.ssh.com/ssh/putty/windows/puttygen)   
 
@@ -67,23 +67,23 @@ toc_sticky: true
 
     - Clickear en **Settings**
 
-      ![](images/ssh_keys_01.png)
+      ![](/assets/images/posts/ssh_keys_01.png)
        
     - Clickear en **SSH and GPG keys**
       
-      ![](images/ssh_keys_02.png) 
+      ![](/assets/images/posts/ssh_keys_02.png) 
 
     - Clickear en **New SSH key**
-      ![](images/ssh_keys_03.png) 
+      ![](/assets/images/posts/ssh_keys_03.png) 
     
     - Copiar la **llave pública** generada al portapapeles
-      ![](images/ssh_keys_04.png)
+      ![](/assets/images/posts/ssh_keys_04.png)
     
     - Pegar la **llave pública** del portapapeles y asignarle un **titulo**, clickear **Add SSH key**
-      ![](images/ssh_keys_05.png)
+      ![](/assets/images/posts/ssh_keys_05.png)
 
     - Confirmar la asignación con la **contraseña** de la cuenta
-      ![](images/ssh_keys_06.png)
+      ![](/assets/images/posts/ssh_keys_06.png)
  
 ## 4. Subir archivos al repositorio <a name="4"></a>
    - Por primera vez - [v0.0.1](#v0.0.1)
@@ -95,7 +95,7 @@ toc_sticky: true
      git remote add origin git@github.com:nelbren/my_codes_in_sololearn.git
      git push -u origin master
      ``` 
-     ![](images/git_init.png)
+     ![](/assets/images/posts/git_init.png)
    - Por segunda vez - [v0.0.2](#v0.0.2)
    
      ```bash
@@ -105,7 +105,7 @@ toc_sticky: true
      git commit -m "Update to v0.0.2"
      git push
      ``` 
-     ![](images/git_push_v0.0.2.png)
+     ![](/assets/images/posts/git_push_v0.0.2.png)
    - Por tercera vez - [v0.0.3](#v0.0.3)
    
      ```bash
@@ -115,17 +115,17 @@ toc_sticky: true
      git commit -m "Update to v0.0.3"
      git push
      ``` 
-     ![](images/git_push_v0.0.3.png)     
+     ![](/assets/images/posts/git_push_v0.0.3.png)     
      
 ## 5. Resultados de cambios <a name="5"></a> 
-   -  [Github](https://github.com) (**control de versiones**) versus [SoloLearn](https://sololearn.com) (**ambiente de ejecución**)
+   <i class="fab fa-github"></i> [Github](https://github.com/nelbren/my_codes_in_sololearn) (**control de versiones**) versus  <i class="fas fa-code"></i> [SoloLearn](https://www.sololearn.com/Profile/8229204) (**ambiente de aprendizaje/ejecución**)
 
    |Versión|Github         | SoloLearn  |Lenguaje| Descripción|
    |------:|:--------------|:-----------|:------:|:-----------|
    |[0.0.1](https://github.com/nelbren/my_codes_in_sololearn/tree/3bc139e905140e61c67cc7f756efa9df88cdfa90)<a name="v0.0.1"></a>|[heart.rb](https://github.com/nelbren/my_codes_in_sololearn/blob/3bc139e905140e61c67cc7f756efa9df88cdfa90/heart.rb)|[heart.rb\_v0.0.1](https://code.sololearn.com/csr5mCY6joG9/#rb)|Ruby|DisplayAHeart-FirstTry!|
    | |[shift\_cipher.c](https://github.com/nelbren/my_codes_in_sololearn/blob/3bc139e905140e61c67cc7f756efa9df88cdfa90/shift_cipher.c)|[shift\_cipher\_v0.0.1.c](https://code.sololearn.com/cNGVi1MaeYJ6/#c)|C|UseShiftCipherIn28lines|
    | |[shift\_cipher.c_compile.bash](https://github.com/nelbren/my_codes_in_sololearn/blob/3bc139e905140e61c67cc7f756efa9df88cdfa90/shift_cipher.c_compile.bash)| - |Bash|Bash4CompileCProgram|
-   | |[shift\_cipher.php](https://github.com/nelbren/my_codes_in_sololearn/blob/3bc139e905140e61c67cc7f756efa9df88cdfa90/shift\_cipher.php)| [shift\_cipher\_v0.0.1.php](https://code.sololearn.com/w5I5CvnY7TOs/#php)|PHP|UseShiftCipherIn13lines|   
+   | |[shift\_cipher.php](https://github.com/nelbren/my_codes_in_sololearn/blob/3bc139e905140e61c67cc7f756efa9df88cdfa90/shift_cipher.php)| [shift\_cipher\_v0.0.1.php](https://code.sololearn.com/w5I5CvnY7TOs/#php)|PHP|UseShiftCipherIn13lines|   
    | |[shift\_cipher.py](https://github.com/nelbren/my_codes_in_sololearn/blob/3bc139e905140e61c67cc7f756efa9df88cdfa90/shift_cipher.py)| [shift\_cipher\_v0.0.1.py](https://code.sololearn.com/c2DTb4Eiz4qP/#py)|Python|UseShiftCipherIn10lines|
    | |[shift\_cipher.rb](https://github.com/nelbren/my_codes_in_sololearn/blob/3bc139e905140e61c67cc7f756efa9df88cdfa90/shift_cipher.rb)| [shift\_cipher\_v0.0.1.rb](https://code.sololearn.com/cRNWQ2J4He6o/#rb)|Ruby|UseShiftCipherIn20lines|  
    | |[string\_rotations.rb](https://github.com/nelbren/my_codes_in_sololearn/blob/3bc139e905140e61c67cc7f756efa9df88cdfa90/string_rotations.rb)| [string\_rotations\_v0.0.1.rb](https://code.sololearn.com/cZu14adYWt4Q/#rb)|Ruby|UsingSubstring|    
@@ -147,4 +147,4 @@ toc_sticky: true
    |[0.0.8](https://github.com/nelbren/my_codes_in_sololearn/tree/9f7d1e2928c2fc02ffb1ee55148bc0c9ca90b90a)<a name="v0.0.8"></a>\|[diff](https://github.com/nelbren/my_codes_in_sololearn/commit/9f7d1e2928c2fc02ffb1ee55148bc0c9ca90b90a)|[heart.rb](https://github.com/nelbren/my_codes_in_sololearn/blob/9f7d1e2928c2fc02ffb1ee55148bc0c9ca90b90a/heart.rb)|[heart.rb\_ v0.0.8](https://code.sololearn.com/c1ril3v0sx5e/#rb)|Ruby|DisplayAHeart-Array2NewAssign''|
    |[0.0.9](https://github.com/nelbren/my_codes_in_sololearn/tree/5a3e08868a7b381d43fa04ea857841a13675244c)<a name="v0.0.9"></a>\|[diff](https://github.com/nelbren/my_codes_in_sololearn/commit/5a3e08868a7b381d43fa04ea857841a13675244c)|[heart.rb](https://github.com/nelbren/my_codes_in_sololearn/blob/5a3e08868a7b381d43fa04ea857841a13675244c/heart.rb)|[heart.rb\_v0.0.9](https://code.sololearn.com/c6Ke3H0Avdh0/#rb)|Ruby|DisplayAHeart-ReplaceIfForTwoIf|
 
-<center><strong>Hecho</strong> con <img src="images/icons8-corazones-24.png" alt="drawing" height="18px" style="display: inline-block; vertical-align: middle;"> <strong>por</strong> Martin <a href="https://nelbren.com" style="color: black; text-decoration: none;"><strong>Nelbren</strong></a> Cuellar</center>
+<center><strong>Hecho</strong> con <img src="/assets/images/posts/icons8-corazones-24.png" alt="drawing" height="18px" style="display: inline-block; vertical-align: middle;"> <strong>por</strong> Martin <a href="https://nelbren.com" style="color: black; text-decoration: none;"><strong>Nelbren</strong></a> Cuellar</center>
