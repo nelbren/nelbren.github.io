@@ -9,7 +9,7 @@ tags:
 - jekyll
 - github
 - ruby
-- pythonA
+- python
 header:
   teaser: /assets/images/posts/jekyll_teaser.png
 toc: true
