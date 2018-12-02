@@ -50,7 +50,7 @@ Uno de los dispositivos que ha revolucionado el concepto de ***Hazlo tu mismo***
 
 ## <i class="fas fa-bullseye"></i> Objetivo
 
-En este articulo se mostrara como automatizar el despliege de la información que esta almacenada en un archivo de texto, el cual es actualizado por el programa [Barra de Información del Sistema](/es/terminal/SIB_system-information-bar/).
+En este articulo se mostrara como automatizar el despliegue de la información que esta almacenada en un archivo de texto, el cual es actualizado por el programa [Barra de Información del Sistema](/es/terminal/SIB_system-information-bar/).
 
 ## <i class="fas fa-save"></i> Software
 
