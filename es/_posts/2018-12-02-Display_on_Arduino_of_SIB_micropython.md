@@ -363,7 +363,7 @@ En este articulo se mostrara como automatizar el despliege de la información qu
         Please configure the 'main_pass' in 'cfg.bash'
         ~~~
 
-        > **NOTA:** Cambiar el valor de **`main_passs`** en el archivo **cfg.bash**
+        > **NOTA:** Cambiar el valor de **`main_pass`** en el archivo **cfg.bash**
    - Subir el programa
     ~~~bash
     ./mpi.bash -dm

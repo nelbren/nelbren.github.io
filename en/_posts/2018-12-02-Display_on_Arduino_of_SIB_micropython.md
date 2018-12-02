@@ -363,7 +363,7 @@ This article will show how to automate the deployment of information that is sto
         Please configure the 'main_pass' in 'cfg.bash'
         ~~~
 
-        > **NOTE:** Change the value of **`main_passs`** in the file **cfg.bash**
+        > **NOTE:** Change the value of **`main_pass`** in the file **cfg.bash**
    - Upload the program
     ~~~bash
     ./mpi.bash -dm
