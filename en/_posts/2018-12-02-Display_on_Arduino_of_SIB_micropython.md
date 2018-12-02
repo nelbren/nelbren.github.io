@@ -12,7 +12,7 @@ tags:
 - micropython
 - python
 - system
-excerpt: "Visualizatiion in LCD Screen of Arduino of SIB with MicroPython"
+excerpt: "Visualization in LCD Screen of Arduino of SIB with MicroPython"
 header:
   video:
     id: 5TPSlFpfZX4
