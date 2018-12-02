@@ -87,7 +87,7 @@ This article will show how to automate the deployment of information that is sto
       |--:|:--|
       |Port|**Assigned by driver**|
       |Speed|115200|
-      |SSDI|**Assigned by user**|
+      |SSID|**Assigned by user**|
       |Password|**Assigned by user**|
 
     - <i class="fas fa-code"></i> **Display_on_Arduino_of_System_Information_Bar_-_esp8266_nodemcu.py**

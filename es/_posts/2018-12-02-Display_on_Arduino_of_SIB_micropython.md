@@ -87,7 +87,7 @@ En este articulo se mostrara como automatizar el despliege de la información qu
       |--:|:--|
       |Puerto|**Asignado por driver**|
       |Velocidad|115200|
-      |SSDI|**Asignado por usuario**|
+      |SSID|**Asignado por usuario**|
       |Contraseña|**Asignado por usuario**|
 
     - <i class="fas fa-code"></i> **Display_on_Arduino_of_System_Information_Bar_-_esp8266_nodemcu.py**
