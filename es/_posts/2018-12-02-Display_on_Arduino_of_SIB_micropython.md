@@ -28,11 +28,11 @@ author_profile: true
 
 ## <i class="fa fa-info-circle" aria-hidden="true"></i> Introducción
 
-Ver [Introducción del Internet de las Cosas](/es/arduino/Display_on_Arduino_of_SIB) en articulo anterior de **Visualización en Arduino de la Barra de Información del Sistema**
+Ver [Introducción del Internet de las Cosas](/es/arduino/Display_on_Arduino_of_SIB) en artículo anterior de **Visualización en Arduino de la Barra de Información del Sistema**
 
 ## <i class="fas fa-bullseye"></i> Objetivo
 
-En este articulo se mostrara como automatizar el despliegue de la información que esta almacenada en un archivo de texto en un servidor de páginas en Internet, el cual es actualizado por el programa [Barra de Información del Sistema](/es/terminal/SIB_system-information-bar/), utilizando [MicroPython](https://micropython.org/).
+En este artículo se mostrará como automatizar el despliegue de la información que está almacenada en un archivo de texto en un servidor de páginas en Internet, el cual es actualizado por el programa [Barra de Información del Sistema](/es/terminal/SIB_system-information-bar/), utilizando [MicroPython](https://micropython.org/).
 
 [![](/assets/images/posts/micropython.png)](https://micropython.org/)
 
@@ -381,4 +381,4 @@ En este articulo se mostrara como automatizar el despliegue de la información q
 
 ## <i class="fa fa-info-circle" aria-hidden="true"></i> Actualización de archivo de texto
 
-Ver [Actualización de archivo de texto](/es/arduino/Display_on_Arduino_of_SIB) en articulo anterior de **Visualización en Arduino de la Barra de Información del Sistema**
+Ver [Actualización de archivo de texto](/es/arduino/Display_on_Arduino_of_SIB) en artículo anterior de **Visualización en Arduino de la Barra de Información del Sistema**
