@@ -1,6 +1,6 @@
 ---
 title: Demo Simple de Led RGB
-last_modified_at: 2018-02-20T18:53:00-06:00
+last_modified_at: 2018-02-20T15:05:00-06:00
 ref: demo_simple_of_led_rgb
 locale: es
 categories:
