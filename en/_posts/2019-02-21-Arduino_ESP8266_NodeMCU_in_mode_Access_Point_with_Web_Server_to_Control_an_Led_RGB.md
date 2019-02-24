@@ -24,11 +24,11 @@ classes: wide
 author_profile: true
 ---
 
-## <i class="fa fa-info-circle" aria-hidden="true"></i> Introducción
+## <i class="fa fa-info-circle" aria-hidden="true"></i> Introduction
 
 See [Introduction of Internet of the Things](/en/arduino/Display_on_Arduino_of_SIB) in previous article.
 
-## <i class="fas fa-bullseye"></i> Objetivo
+## <i class="fas fa-bullseye"></i> Objective
 
 Demonstrate how to use the Arduino ESP8266 NodeMCU as an Access Point with Web Server to Control an RGB Led.
 
