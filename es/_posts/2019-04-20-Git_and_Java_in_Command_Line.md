@@ -12,6 +12,7 @@ tags:
 - bash
 - cmd
 - java
+excerpt: "Una breve guía para utilizar Git y Java en la Linea de Comando"
 toc: true
 toc_sticky: true
 ---
