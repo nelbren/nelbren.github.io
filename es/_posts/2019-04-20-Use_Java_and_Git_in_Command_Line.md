@@ -231,7 +231,7 @@ author_profile: false
     - <i class="fab fa-windows"></i> **Windows** | <i class="fab fa-apple"></i> **Mac** | <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/git_add_windows.png)
 
-  - ### <i class="fas fa-database"></i> Configuración de git
+  - ### <i class="fas fa-toggle-on"></i> Configuración de git
 
     - <i class="fas fa-book"></i> [Tu identidad](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez#_tu_identidad) <i class="fas fa-external-link-square-alt"></i>
 
