@@ -7,6 +7,7 @@ show-avatar: true
 categories:
 - develop
 tags:
+- git
 - github
 - bash
 - cmd
@@ -40,7 +41,7 @@ author_profile: false
 
     <i class="fa fa-quote-left" aria-hidden="true"></i> 
     *Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente.* 
-    <i class="fa fa-quote-right" aria-hidden="true"></i>i
+    <i class="fa fa-quote-right" aria-hidden="true"></i>
     <br>
     <i class="fab fa-wikipedia-w"></i>
     [Wikipedia](https://es.wikipedia.org/wiki/Git) 
@@ -58,52 +59,74 @@ author_profile: false
 
 ## <i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Descargas
 
-  Enlaces de programas actualizados al 2019-04-20:
+  **Enlaces de programas actualizados al 2019-04-20.**
+  {: .notice--danger} 
+
+  - <i class="fab fa-java"></i> [Java](https://www.java.com/es/download/)
+
+    - <i class="fab fa-windows"></i> [Windows](https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-windows-x64.exe)
+    - <i class="fab fa-apple"></i> [Mac](https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-macosx-x64.dmg)
+    - <i class="fab fa-linux"></i> [Linux](https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-linux-x64.tar.gz)
+      - <i class="fas fa-terminal"></i> **Comando**
+        ```bash
+        sudo apt install openjdk-8-jdk
+        ```
 
   - <i class="fas fa-code-branch"></i> [Git](https://git-scm.com/downloads)
 
     - <i class="fab fa-windows"></i> [Windows](https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/Git-2.21.0-64-bit.exe) 
     - <i class="fab fa-apple"></i> [Mac](https://sourceforge.net/projects/git-osx-installer/files/git-2.21.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect)
     - <i class="fab fa-linux"></i> [Linux](https://git-scm.com/download/linux)
+      - <i class="fas fa-terminal"></i> **Comando**
+        ```bash
+        sudo apt-get install git
+        ```
 
-      ```bash
-      sudo apt-get install git
-      ```
-  - <i class="fab fa-java"></i> [Java](https://www.java.com/es/download/)
-
-    - <i class="fab fa-windows"></i> [Windows](https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-windows-x64.exe)
-    - <i class="fab fa-apple"></i> [Mac](https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-macosx-x64.dmg)
-    - <i class="fab fa-linux"></i> [Linux](https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-linux-x64.tar.gz)
-
-      ```bash
-      sudo apt install openjdk-8-jdk
-      ```
   - <i class="fas fa-terminal"></i> Linea de Comando
    
     - <i class="fab fa-windows"></i> **Windows**
 
       1. Teclas: **Windows + R**
-      2. Ejecutar: **Cmd**
+      2. <i class="fas fa-terminal"></i> **Comando**
+         ```bash
+         Cmd
+         ```
 
     - <i class="fab fa-apple"></i> **Mac**
 
       1. Teclas: **Shift + Cmd + U**
-      2. Ejecutar: **Terminal**
+      2. <i class="fas fa-terminal"></i> **Comando**
+      ```bash
+      Terminal
+      ```
 
     - <i class="fab fa-linux"></i> **Linux**
 
       - Localmente:
-        - Teclas: **Alt+F1~7** o Ejecutar: **Terminal**
+        - Teclas: **Alt+F1~7**<br>
+        ó
+        - <i class="fas fa-terminal"></i> **Comando**
+          ```bash
+          Terminal
+          ```
       - Remotamente:
-        - Ejecutar: **ssh nombre**
+        - <i class="fas fa-terminal"></i> **Comando**
+          ```bash
+          ssh dirección-ip
+          ```
+          ó
+          ```bash
+          ssh nombre-de-sistema
+          ```
 
 ## <i class="fab fa-java"></i> Java
 
    - ### <i class="fas fa-code-branch"></i> Validación de versión
 
-     ```bash
-     javac --version
-      ```
+     - <i class="fas fa-terminal"></i> **Comando**
+       ```bash
+       javac --version
+        ```
      - <i class="fab fa-windows"></i> **Windows**
        ![](/assets/images/posts/javac_version_windows.png)
      - <i class="fab fa-apple"></i> **Mac**
@@ -305,4 +328,5 @@ author_profile: false
 
 MADE WITH <i class="fas fa-heart"></i> BY **[NELBREN](/es/about/)**
 {: .text-center}
+{: .notice--success}
 
