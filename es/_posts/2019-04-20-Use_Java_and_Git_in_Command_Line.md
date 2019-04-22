@@ -258,7 +258,7 @@ author_profile: false
 
   - ### <i class="fas fa-link"></i> Conectar repo-local a remoto
 
-    - <i class="fas fa-info-circle"></i> NOTA: El repositorio debe exitir. <br>
+    - <i class="fas fa-info-circle"></i> **NOTA:** El repositorio debe exitir. <br>
       Ver cómo [Crear repositorio en Gibhub](https://nelbren.com/es/tutorial/Version_Control_of_SoloLearn_in_Github/#2) <i class="fas fa-external-link-square-alt"></i>
 
     - <i class="fas fa-book"></i> [Añadir Repositorios Remotos](https://git-scm.com/book/es/v2/Fundamentos-de-Git-Trabajar-con-Remotos#_a%C3%B1adir_repositorios_remotos) <i class="fas fa-external-link-square-alt"></i>
