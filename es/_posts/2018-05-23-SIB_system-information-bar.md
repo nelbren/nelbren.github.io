@@ -25,7 +25,7 @@ toc_sticky: true
 ## <i class="fa fa-question-circle" aria-hidden="true"></i> ¿Qué es esto?
 <i class="fa fa-quote-left" aria-hidden="true"></i> Scientia potentia est <i class="fa fa-quote-right" aria-hidden="true"></i>
 
-***El conocimiento es poder.*** El saber de antemano o previo a que el sistema colapse o se quede sin recursos, se convierte en una prioridad, debido a esto, y para completar el panorama de programas que nos muestran los recursos y rendimiento de nuestros sistemas, nos llega **SI** con una super potente fabulosa y extremadamente consisa barra de informacion de los recursos actuales.
+***El conocimiento es poder.*** El saber de antemano o previo a que el sistema colapse o se quede sin recursos, se convierte en una prioridad, debido a esto, y para completar el panorama de programas que nos muestran los recursos y rendimiento de nuestros sistemas, nos llega **SI** con una super potente fabulosa y extremadamente concisa barra de información de los recursos actuales.
 
 ## <i class="fa fa-globe" aria-hidden="true"></i> Herramientas con más detalle:
 
