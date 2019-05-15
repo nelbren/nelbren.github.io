@@ -1,8 +1,8 @@
 ---
-title: Uso de Java y Git en la Linea de Comando
+title: Use of Java and Git in the Command Line
 last_modified_at: 2019-03-20T20:19:00-06:00
 ref: use_java_and_git_in_the_command_line
-locale: es
+locale: en
 show-avatar: true
 categories:
 - develop
@@ -12,7 +12,7 @@ tags:
 - bash
 - cmd
 - java
-excerpt: "Una guía rapida de cómo utilizar Java y Git en la Linea de Comando en Windows, Mac o Linux"
+excerpt: "A quick guide on how to use Java and Git in the Command Line in Windows, Mac or Linux"
 header:
   overlay_image: /assets/images/posts/jgit.png
   overlay_filter: 0.7
@@ -23,43 +23,43 @@ toc_sticky: true
 author_profile: false
 ---
 
-## <i class="fas fa-bullseye"></i> Objetivo
+## <i class="fas fa-bullseye"></i> Objective
 
-  Aprender a utilizar:
+ Learn to use:
 
   - <i class="fab fa-java"></i> **Java**
 
     <i class="fa fa-quote-left" aria-hidden="true"></i> 
-    *Es un lenguaje de programación de propósito general, concurrente, orientado a objetos, que fue diseñado específicamente para tener tan pocas dependencias de implementación como fuera posible.* 
+    *Is a general-purpose programming language that is class-based, object-oriented and designed to have as few implementation dependencies as possible.* 
     <i class="fa fa-quote-right" aria-hidden="true"></i>
     <br>
     <i class="fab fa-wikipedia-w"></i>
-    [Wikipedia](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)) 
+    [Wikipedia](https://en.wikipedia.org/wiki/Java_(programming_language)) 
     <i class="fas fa-external-link-square-alt"></i>
 
   - <i class="fas fa-code-branch"></i> **Git**
 
     <i class="fa fa-quote-left" aria-hidden="true"></i> 
-    *Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente.* 
+    *Is a distributed version-control system for tracking changes in source code during software development.* 
     <i class="fa fa-quote-right" aria-hidden="true"></i>
     <br>
     <i class="fab fa-wikipedia-w"></i>
-    [Wikipedia](https://es.wikipedia.org/wiki/Git) 
+    [Wikipedia](https://en.wikipedia.org/wiki/Git) 
     <i class="fas fa-external-link-square-alt"></i>
 
-  - <i class="fas fa-terminal"></i> **Línea de Comando**
+  - <i class="fas fa-terminal"></i> **Command Line**
 
     <i class="fa fa-quote-left" aria-hidden="true"></i> 
-    *La interfaz de línea de comandos o interfaz de línea de órdenes (en inglés, command-line interface, CLI) es un método que permite a los usuarios dar instrucciones a algún programa informático por medio de una línea de texto simple.* 
+    *A command-line interface or command language interpreter (CLI), also known as command-line user interface, console user interface and character user interface (CUI), is a means of interacting with a computer program where the user (or client) issues commands to the program in the form of successive lines of text (command lines).* 
     <i class="fa fa-quote-right" aria-hidden="true"></i>
     <br>
     <i class="fab fa-wikipedia-w"></i>
-    [Wikipedia](https://es.wikipedia.org/wiki/Interfaz_de_l%C3%ADnea_de_comandos) 
+    [Wikipedia](https://en.wikipedia.org/wiki/Command-line_interface) 
     <i class="fas fa-external-link-square-alt"></i>
 
-## <i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Descargas
+## <i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Downloads
 
-  **Enlaces de programas actualizados al 2019-04-20.**
+  **Links of updated programs to 2019-04-20.**
   {: .notice--danger} 
 
   - <i class="fab fa-java"></i> [Java](https://www.java.com/es/download/)
@@ -67,7 +67,8 @@ author_profile: false
     - <i class="fab fa-windows"></i> [Windows](https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-windows-x64.exe)
     - <i class="fab fa-apple"></i> [Mac](https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-macosx-x64.dmg)
     - <i class="fab fa-linux"></i> [Linux](https://download.oracle.com/otn/java/jdk/8u211-b12/478a62b7d4e34b78b671c754eaaf38ab/jdk-8u211-linux-x64.tar.gz)
-      - <i class="fas fa-terminal"></i> **Comando**
+      - <i class="fas fa-terminal"></i> **Command**
+        
         ```bash
         sudo apt install openjdk-8-jdk
         ```
@@ -77,55 +78,59 @@ author_profile: false
     - <i class="fab fa-windows"></i> [Windows](https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/Git-2.21.0-64-bit.exe) 
     - <i class="fab fa-apple"></i> [Mac](https://sourceforge.net/projects/git-osx-installer/files/git-2.21.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect)
     - <i class="fab fa-linux"></i> [Linux](https://git-scm.com/download/linux)
-      - <i class="fas fa-terminal"></i> **Comando**
+      - <i class="fas fa-terminal"></i> **Command**
+        
         ```bash
         sudo apt-get install git
         ```
 
-  - <i class="fas fa-terminal"></i> Linea de Comando
+  - <i class="fas fa-terminal"></i> Command Line
    
     - <i class="fab fa-windows"></i> **Windows**
 
-      1. Teclas: **Windows + R**
-      2. <i class="fas fa-terminal"></i> **Comando**
-
+      1. Keys: **Windows + R**
+      2. <i class="fas fa-terminal"></i> **Command**
+         
          ```bash
          Cmd
          ```
-
+    
     - <i class="fab fa-apple"></i> **Mac**
-
-      1. Teclas: **Shift + Cmd + U**
-      2. <i class="fas fa-terminal"></i> **Comando**
+    
+      1. Keys: **Shift + Cmd + U**
+      2. <i class="fas fa-terminal"></i> **Command**
 
          ```bash
          Terminal
          ```
-
+    
     - <i class="fab fa-linux"></i> **Linux**
-
-      - Localmente:
-        - Teclas: **Alt+F1~7**<br>
-        ó
-        - <i class="fas fa-terminal"></i> **Comando**
+    
+      - Locally:
+        - Keys: **Alt+F1~7**<br>
+        or
+        - <i class="fas fa-terminal"></i> **Command**
+          
           ```bash
           Terminal
           ```
-      - Remotamente:
-        - <i class="fas fa-terminal"></i> **Comando**
+      - Remotely:
+        - <i class="fas fa-terminal"></i> **Command**
+          
           ```bash
-          ssh dirección-ip
+          ssh ip-address
           ```
-          ó
+          or
           ```bash
-          ssh nombre-de-sistema
+          ssh name-of-system
           ```
 
 ## <i class="fab fa-java"></i> Java
 
-   - ### <i class="fas fa-code-branch"></i> Validación de versión
+   - ### <i class="fas fa-code-branch"></i> Version validation
 
-     - <i class="fas fa-terminal"></i> **Comando**
+     - <i class="fas fa-terminal"></i> **Command**
+       
        ```bash
        javac --version
        ```
@@ -136,9 +141,9 @@ author_profile: false
      - <i class="fab fa-linux"></i> **Linux**
        ![](/assets/images/posts/javac_version_linux.png)
 
-  - ### <i class="fas fa-edit"></i> Creación de programa
+  - ### <i class="fas fa-edit"></i> Program creation
 
-    - <i class="fas fa-code"></i> Código (Principal.java)
+    - <i class="fas fa-code"></i> Code (Principal.java)
 
       ```java
       class Principal {
@@ -164,7 +169,7 @@ author_profile: false
     - <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/make_source_linux.png)
 
-  - ### <i class="fas fa-eye"></i> Visualización de programa
+  - ### <i class="fas fa-eye"></i> Program display
 
     - <i class="fab fa-windows"></i> **Windows**
       ![](/assets/images/posts/show_source_windows.png)
@@ -173,7 +178,7 @@ author_profile: false
     - <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/show_source_linux.png)
 
-  - ### <i class="fas fa-edit"></i> Modificación de programa
+  - ### <i class="fas fa-edit"></i> Program modification
 
     - <i class="fab fa-windows"></i> **Windows**
       - Notepad
@@ -184,7 +189,7 @@ author_profile: false
       - vi, vim
       - nano
 
-  - ### <i class="fas fa-filter"></i> Compilación de programa
+  - ### <i class="fas fa-filter"></i> Program compilation
 
     - <i class="fab fa-windows"></i> **Windows**
       ![](/assets/images/posts/compile_windows.png)
@@ -193,7 +198,7 @@ author_profile: false
     - <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/compile_linux.png)
 
-  - ### <i class="fas fa-microchip"></i> Ejecución de programa
+  - ### <i class="fas fa-microchip"></i> Program execution
 
     - <i class="fab fa-windows"></i> **Windows**
       ![](/assets/images/posts/run_windows.png)
@@ -204,15 +209,16 @@ author_profile: false
 
 ## <i class="fab fa-git-square" aria-hiddden="true"></i> Git
 
-  - ### <i class="fas fa-code-branch"></i> Validación de versión
+  - ### <i class="fas fa-code-branch"></i> Version validation
 
-    - <i class="fas fa-book"></i> [La Línea de Comandos](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-La-L%C3%ADnea-de-Comandos) <i class="fas fa-external-link-square-alt"></i>
+    - <i class="fas fa-book"></i> [The Command Line](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line) <i class="fas fa-external-link-square-alt"></i>
 
-    - <i class="fas fa-terminal"></i> **Comando**
+    - <i class="fas fa-terminal"></i> **Command**
+      
       ```bash
       git --version
       ```
-
+      
     - <i class="fab fa-windows"></i> **Windows**
       ![](/assets/images/posts/git_version_windows.png)
     - <i class="fab fa-apple"></i> **Mac**
@@ -220,87 +226,94 @@ author_profile: false
     - <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/git_version_linux.png)
 
-  - ### <i class="fas fa-folder"></i> Inicialización de repositorio
+  - ### <i class="fas fa-folder"></i> Repository initialization
 
-    - <i class="fas fa-book"></i> [Obteniendo un repositorio Git](https://git-scm.com/book/es/v2/Fundamentos-de-Git-Obteniendo-un-repositorio-Git#r_getting_a_repo) <i class="fas fa-external-link-square-alt"></i>
+    - <i class="fas fa-book"></i> [Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#_getting_a_repo) <i class="fas fa-external-link-square-alt"></i>
 
-    - <i class="fas fa-terminal"></i> **Comando**
+    - <i class="fas fa-terminal"></i> **Command**
+      
       ```bash
       git init
       ```
-
+      
     - <i class="fab fa-windows"></i> **Windows** | <i class="fab fa-apple"></i> **Mac** | <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/git_init_windows.png)
 
-  - ### <i class="fas fa-folder-minus"></i> Ignorar incluir bytecode 
+  - ### <i class="fas fa-folder-minus"></i> Ignore include bytecode 
 
-    - <i class="fas fa-book"></i> [Ignorar archivos](https://git-scm.com/book/es/v2/Fundamentos-de-Git-Guardando-cambios-en-el-Repositorio#r_ignoring) <i class="fas fa-external-link-square-alt"></i>
+    - <i class="fas fa-book"></i> [Ignoring Files](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring) <i class="fas fa-external-link-square-alt"></i>
 
-    - <i class="fas fa-terminal"></i> **Comando**
+    - <i class="fas fa-terminal"></i> **Command**
+      
       ```bash
       .gitignore
       ```
-
+      
     - <i class="fab fa-windows"></i> **Windows** | <i class="fab fa-apple"></i> **Mac** | <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/gitignore_windows.png)
 
-  - ### <i class="fas fa-folder-plus"></i> Adición de archivos
+  - ### <i class="fas fa-folder-plus"></i> Adding files
 
-    - <i class="fas fa-book"></i> [Rastrear Archivos Nuevos](https://git-scm.com/book/es/v2/Fundamentos-de-Git-Guardando-cambios-en-el-Repositorio#r_tracking_files) <i class="fas fa-external-link-square-alt"></i>
+    - <i class="fas fa-book"></i> [Tracking New Files](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_tracking_files) <i class="fas fa-external-link-square-alt"></i>
 
-    - <i class="fas fa-terminal"></i> **Comando**
+    - <i class="fas fa-terminal"></i> **Command**
+      
       ```bash
       git add .
       ```
-
+      
     - <i class="fab fa-windows"></i> **Windows** | <i class="fab fa-apple"></i> **Mac** | <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/git_add_windows.png)
 
-  - ### <i class="fas fa-toggle-on"></i> Configuración de git
+  - ### <i class="fas fa-toggle-on"></i> Git configuration
 
-    - <i class="fas fa-book"></i> [Tu identidad](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez#_tu_identidad) <i class="fas fa-external-link-square-alt"></i>
+    - <i class="fas fa-book"></i> [Your Identity](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#_your_identity) <i class="fas fa-external-link-square-alt"></i>
 
-    - <i class="fas fa-terminal"></i> **Comandos**
+    - <i class="fas fa-terminal"></i> **Commands**
+      
       ```bash
       git config --global user.email "usuario@correo.com"
       git config --global user.email "Nombre de Usuario"
       ```
-
+      
     - <i class="fab fa-windows"></i> **Windows** | <i class="fab fa-apple"></i> **Mac** | <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/git_config_windows.png)
 
-  - ### <i class="fas fa-database"></i> Consolidación de cambios
+  - ### <i class="fas fa-database"></i> Consolidation of changes
 
-    - <i class="fas fa-book"></i> [Confirmar tus Cambios](https://git-scm.com/book/es/v2/Fundamentos-de-Git-Guardando-cambios-en-el-Repositorio#r_committing_changes) <i class="fas fa-external-link-square-alt"></i>
+    - <i class="fas fa-book"></i> [Committing Your Changes](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_committing_changes) <i class="fas fa-external-link-square-alt"></i>
 
-    - <i class="fas fa-terminal"></i> **Comando**
+    - <i class="fas fa-terminal"></i> **Command**
+      
       ```bash
-      git commit -m "Descripción de la consolidación"
+      git commit -m "Description of the consolidation"
       ```
-
+      
     - <i class="fab fa-windows"></i> **Windows** | <i class="fab fa-apple"></i> **Mac** | <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/git_commit_windows.png)
 
-  - ### <i class="fas fa-link"></i> Conectar repo-local a remoto
+  - ### <i class="fas fa-link"></i> Connect repo-local to remote
 
-    - <i class="fas fa-info-circle"></i> **NOTA:** El repositorio debe existir. <br>
-      Ver ejemplo de cómo [Crear repositorio en Gibhub](https://nelbren.com/es/tutorial/Version_Control_of_SoloLearn_in_Github/#2) <i class="fas fa-external-link-square-alt"></i>
-
-    - <i class="fas fa-book"></i> [Añadir Repositorios Remotos](https://git-scm.com/book/es/v2/Fundamentos-de-Git-Trabajar-con-Remotos#_a%C3%B1adir_repositorios_remotos) <i class="fas fa-external-link-square-alt"></i>
-
-    - <i class="fas fa-terminal"></i> **Comando**
+    - <i class="fas fa-info-circle"></i> **NOTE:** The repository must exist. <br>See example of [Create repository on Github](https://nelbren.com/en/tutorial/Version_Control_of_SoloLearn_in_Github/#2) <i class="fas fa-external-link-square-alt"></i>
+      
+    - <i class="fas fa-book"></i> [Adding Remote Repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_adding_remote_repositories) <i class="fas fa-external-link-square-alt"></i>
+    
+    - <i class="fas fa-terminal"></i> **Command**
+  :w
+    
       ```bash
-      git remote add origin https://github.com/USUARIO/RUTA.git
+      git remote add origin https://github.com/USER/PATH.git
       ```
-
+  
     - <i class="fab fa-windows"></i> **Windows** | <i class="fab fa-apple"></i> **Mac** | <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/git_remote_windows.png)
 
-  - ### <i class="fas fa-external-link-alt"></i> Enviar cambios al repo-remoto
+  - ### <i class="fas fa-external-link-alt"></i> Send changes to the repo-remote
 
-    - <i class="fas fa-book"></i> [Enviar a Tus Remotos](https://git-scm.com/book/es/v2/Fundamentos-de-Git-Trabajar-con-Remotos#r_pushing_remotes) <i class="fas fa-external-link-square-alt"></i>
+    - <i class="fas fa-book"></i> [Pushing to Your Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_pushing_remotes) <i class="fas fa-external-link-square-alt"></i>
 
-    - <i class="fas fa-terminal"></i> **Comando**
+    - <i class="fas fa-terminal"></i> **Command**
+      
       ```bash
       git push -u origin master
       ```
@@ -308,14 +321,14 @@ author_profile: false
       ![](/assets/images/posts/git_push_1de2_windows.png)
       ![](/assets/images/posts/git_push_2de2_windows.png)
 
-  - ### <i class="fa fa-eye"></i> Ver consolidación en GitHub
+  - ### <i class="fa fa-eye"></i> See consolidation in GitHub
 
-    - <i class="fab fa-github"></i> [Repositorio en GitHub](https://github.com/nelbren/desplegar_321) <i class="fas fa-external-link-square-alt"></i>
+    - <i class="fab fa-github"></i> [Repository in GitHub](https://github.com/nelbren/desplegar_321) <i class="fas fa-external-link-square-alt"></i>
 
     - <i class="fab fa-windows"></i> **Windows** | <i class="fab fa-apple"></i> **Mac** | <i class="fab fa-linux"></i> **Linux**
       ![](/assets/images/posts/github_result.png)
 
-## <i class="fas fa-link" aria-hidden="true"></i> Referencias
+## <i class="fas fa-link" aria-hidden="true"></i> References
   - <i class="fab fa-git-square" aria-hiddden="true"></i> [Pro Git book](https://git-scm.com/book/es/v2) <i class="fas fa-external-link-square-alt"></i>
   - <i class="fab fa-java" aria-hiddden="true"></i> [Java desde Cero](http://mmc.geofisica.unam.mx/cursos/mcst-2007-II/Java/Java%20desde%20Cero.pdf) <i class="fas fa-external-link-square-alt"></i>
   - <i class="fab fa-git-square" aria-hiddden="true"></i> [git - la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html) <i class="fas fa-external-link-square-alt"></i>
@@ -328,6 +341,6 @@ author_profile: false
 
 <hr class="small">
 
-HECHO CON <i class="fas fa-heart"></i> POR **[NELBREN](/es/about/)**
+MADE WITH <i class="fas fa-heart"></i> BY **[NELBREN](/en/about/)**
 {: .text-center}
 {: .notice--success}
