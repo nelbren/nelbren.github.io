@@ -12,8 +12,8 @@ author_profile: true
 ---
 ### Mi nombre es **Martin Nelbren Cuellar**. 
 - Soy un desarrollador y administrador de sistemas.
-- Fan de la investigación y el desarrollo de tecnologia.
-- Mis pasatiempos son los videos juegos y escuchar musica.
+- Entusiasta de la investigación y el desarrollo de tecnología.
+- Mis pasatiempos son los vídeos juegos y escuchar música.
 - Usuario del sistema operativo universal (Debian GNU/Linux). 
 - Residente en Tegucigalpa, Honduras, Centroamérica.
 

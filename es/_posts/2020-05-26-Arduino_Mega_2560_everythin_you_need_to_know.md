@@ -1,16 +1,14 @@
 ---
 title: Arduino Mega, todo lo que necesitas saber
 last_modified_at: 2020-05-26T02:53:00-06:00
-ref: arduino_mega_2560,_todo_lo_que_necesitas_saber
+ref: arduino_mega_everything_you_need_to_know
 locale: es
 categories:
 - arduino
-- Mega2560
-- Uno
 tags:
 - arduino
 - led
-excerpt: "Comparación del Arduino Mega 2560 versus Arduino UNO"
+excerpt: "Comparación de Arduino Mega 2560 y Arduino UNO"
 header:
   overlay_image: /assets/images/posts/Mega2560/a000067_featured_1_.jpg
   overlay_filter: 0.7
@@ -71,24 +69,41 @@ A continuación, puedes observar con más en detalle dichas diferencias y ademá
 
 ## Dónde comprar
 
-- En la tienda original de Arduino
-  - [ARDUINO MEGA 2560 REV3](https://store.arduino.cc/usa/mega-2560-r3)
+### En la tienda de [Arduino](https://store.arduino.cc/)
 
-    ![Arduino Mega](/assets/images/posts/Mega2560/a000067_featured_1_.jpg)
+   ![Arduino](/assets/images/posts/Mega2560/Arduino_Logo.svg)
 
-  - [ARDUINO UNO REV3](https://store.arduino.cc/usa/arduino-uno-rev3)
- 
-    ![Arduino UNO](/assets/images/posts/Mega2560/a000066_featured_5.jpg)
+   - [ARDUINO MEGA 2560 REV3](https://store.arduino.cc/usa/mega-2560-r3)
 
-- En la tienda de amazon
+     ![Arduino Mega](/assets/images/posts/Mega2560/a000067_featured_1_.jpg)
 
-  - [Arduino Mega 2560](https://www.amazon.es/s?k=arduino+mega+2560+r3&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2OJ961VUN8GVF&sprefix=arduino+mega%2Caps%2C333&ref=nb_sb_ss_i_4_12)
+   - [ARDUINO UNO REV3](https://store.arduino.cc/usa/arduino-uno-rev3)
 
-    ![Arduino Mega](/assets/images/posts/Mega2560/arduino_mega.png)
+     ![Arduino UNO](/assets/images/posts/Mega2560/a000066_featured_5.jpg)
 
-  - [Arduino Uno Rev3 original](https://www.amazon.es/ARDUINO-Arduino-UNO-rev3/dp/B00L7Z0PNY/ref=as_li_ss_tl?ie=UTF8&qid=1471249041&sr=8-1)
+### En la tienda de [C&D Technologia](http://cdtechnologia.net)
 
-    ![Arduino Mega](/assets/images/posts/Mega2560/arduino_uno.png)
+   ![C&D Technologia](/assets/images/posts/Mega2560/circuitos-y-desarrollo-en-tecnologia-cd-technologia-logo-1589751414.jpg)
+
+   - [Arduino Mega 2560](https://cdtechnologia.net/arduino/47-arduino-mega-2560.html)
+
+     ![Arduino Mega](/assets/images/posts/Mega2560/arduino_mega.png)
+
+   - [Arduino Uno Rev3](https://cdtechnologia.net/arduino/46-arduino-uno-generico-2.html)
+
+     ![Arduino Mega](/assets/images/posts/Mega2560/arduino_uno.png)
+
+### En la tienda de [Amazon](https://amazon.com)
+
+   ![Amazon](/assets/images/posts/Mega2560/640px-Amazon_logo.svg.png)
+
+   - [Arduino Mega 2560](https://www.amazon.com/s?k=arduino+mega+2560+r3&ref=nb_sb_noss_1)
+
+     ![Arduino Mega](/assets/images/posts/Mega2560/arduino_mega.png)
+
+   - [Arduino Uno Rev3](https://www.amazon.com/s?k=Arduino+Uno+Rev3&ref=nb_sb_noss_2)
+
+     ![Arduino Mega](/assets/images/posts/Mega2560/arduino_uno.png)
 
 ## Diferencias entre placas originales y copias
 
@@ -104,7 +119,7 @@ Para programar el **Arduino Mega** se utilizó el software **Arduino IDE v1.8.12
 |--:|:--|
 |Placa|**"Arduino Mega o Mega 2560"**|
 |Procesador|**ATmega 2560 (Mega 2560)**|
-|Puerto|**COM3** (Dependerá de su configuración))|
+|Puerto|**COM3** (Dependerá de su configuración)|
 
 ### La prueba más sencilla y rápida, uso del led incorporado
 
@@ -155,7 +170,7 @@ Para programar el **Arduino UNO** se utilizó el software **Arduino IDE v1.8.12*
 |Tipo|Valor|
 |--:|:--|
 |Placa|**"Arduino Uno"**|
-|Puerto|**COM4** (Dependerá de su configuración))|
+|Puerto|**COM4** (Dependerá de su configuración)|
 
 ### La prueba más sencilla y rápida, uso del led incorporado
 
