@@ -11,7 +11,9 @@ tags:
 - presentación
 excerpt: "Python - Hoja de referencia y Presentación"
 header:
-  teaser: /assets/images/posts/python/python-logo-inkscape.svg
+  overlay_image: /assets/images/posts/python/python-logo-master-v3-TM.png
+  overlay_filter: 0.7
+  teaser: /assets/images/posts/python/python-logo-master-v3-TM.png
 toc: false
 toc_sticky: false
 author_profile: true
