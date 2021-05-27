@@ -1,0 +1,232 @@
+---
+marp: true
+theme: uncover
+paginate: false
+footer: ''
+backgroundColor: black
+color: white
+---
+
+# <!-- fit --> Marp
+
+---
+<!-- backgroundColor: white -->
+
+![width:1100px](imagenes/Marp_en_VSC.png "Título de la imagen")
+
+---
+
+<!--
+footer: 'Marp'
+paginate: true
+backgroundColor: orange
+color: black
+-->
+
+# <!-- fit --> Markdown Presentation Ecosystem
+
+---
+<!-- backgroundColor: lightyellow -->
+
+#### ***Marp, Markdown Presentation Ecosystem***, proporciona la gran experiencia para crear una hermosa plataforma de diapositivas. 
+
+
+---
+<!-- backgroundColor: white -->
+
+### Solo tienes que concentrarte en escribir tu historia en el documento **Markdown**.
+
+---
+
+<!-- backgroundColor: yellow -->
+
+# <!-- fit --> Ejemplo
+
+---
+<!-- backgroundColor: white -->
+
+# :heavy_check_mark: Encabezados:
+
+```markdown
+# Encabezado h1
+```
+# Encabezado h1
+```markdown
+## Encabezado h2
+```
+## Encabezado h2
+
+---
+
+```markdown
+### Encabezado h3
+```
+### Encabezado h3
+```markdown
+#### Encabezado h4
+```
+#### Encabezado h4
+```markdown
+##### Encabezado h5
+```
+##### Encabezado h5
+
+---
+
+```markdown
+###### Encabezado h6
+```
+###### Encabezado h6
+
+# :heavy_check_mark: Nueva diapositiva:
+
+```markdown
+---
+```
+
+---
+
+# :heavy_check_mark: Citas:
+
+
+```markdown
+> El éxito no es el final, el fracaso no es la ruina, el coraje de continuar es lo que cuenta.
+```
+> El éxito no es el final, el fracaso no es la ruina, el coraje de continuar es lo que cuenta.
+
+---
+
+# :heavy_check_mark: Texto en Cursiva:
+
+```markdown
+*Esto está en cursiva*
+```
+*Esto está en cursiva*
+
+---
+
+# :heavy_check_mark: Texto en Negrita:
+
+```markdown
+**Esto está en negrita**
+```
+**Esto está en negrita**
+
+---
+
+# :heavy_check_mark: Código en una línea:
+
+```markdown
+`code, die = 1, 0`
+```
+`code, die = 1, 0`
+
+---
+
+### :heavy_check_mark: Código en bloque:
+
+```markdown
+` ` `python
+#!/usr/bin/python3
+if (1 or 0):
+  print('well done')
+` ` `  
+```
+###### **NOTA:** En el código anterior en la **primera** y **última** línea no debe haber separación de espacios, sino ser así :point_right: **```**  
+```python
+#!/usr/bin/python3
+if (1 or 0):
+  print('well done')
+```
+
+---
+
+# :heavy_check_mark: Listas desordenadas:
+
+```markdown
+- Un elemento en una lista no ordenada
+* Otro elemento en una lista
+* Del mismo tipo anterior
++ Tercer y último elemento
+```
+- Un elemento en una lista no ordenada
+* Otro elemento en una lista
+* Del mismo tipo anterior
++ Tercer y último elemento
+---
+
+# :heavy_check_mark: Listas ordenadas:
+
+```markdown
+1. Elemento en una lista enumerada u ordenada.
+2. Otro elemento
+3. Tercer y último elemento
+```
+1. Elemento en una lista enumerada u ordenada.
+2. Otro elemento
+3. Tercer y último elemento
+
+---
+
+### :heavy_check_mark: Enlaces:
+
+```markdown
+[Página de Nelbren](https://nelbren.com "Titulo de la página")
+```
+[Página de Nelbren](https://nelbren.com "Titulo de la página")
+
+---
+
+# :heavy_check_mark: Imágenes:
+
+```markdown
+![width:350px](imagenes/Markdown_polacode.png "Título de la imagen")
+```
+![width:350px](imagenes/Markdown_polacode.png "Título de la imagen")
+###### **NOTA:** imagen generada usando la extensión de **polacode**.
+
+---
+
+# :heavy_check_mark: Tablas:
+
+```markdown
+|#|Descripción|Detalle|
+|--:|:--:|:--|
+|1|Primera descripción|Algún detalle| 
+|...|...|...|
+|1,000|Última|Detalle|
+```
+|#|Descripción|Detalle|
+|--:|:--:|:--|
+|1|Primera descripción|Algún detalle| 
+|...|...|...|
+|1,000|Última|Detalle|
+
+---
+
+# :heavy_check_mark: Emojis:
+
+```markdown
+:sunglasses: :smile: :worried:
+````
+:sunglasses: :smile: :worried:
+
+---
+<!-- backgroundColor: white -->
+
+# :hammer_and_wrench: Recursos
+
+  - ### :memo: Editores
+
+    - #### :hammer_and_pick: [Visual Studio Code](https://code.visualstudio.com)
+  
+    - #### :pick: Extensiones de Visual Studio Code
+      - ##### :eye: [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+
+---
+<!-- backgroundColor: black
+color: white
+footer: 'Hecho con ❤️ por **Nelbren**' 
+paginate: false
+-->
+# <!-- fit --> :+1:
